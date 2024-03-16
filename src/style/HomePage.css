@@ -1,0 +1,238 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+
+.block1 {
+  margin: 0;
+}
+.block1 {
+  background: #e6e6e6;
+  height: 10vh;
+  width: 100%;
+}
+
+@keyframes fade {
+  from { background: #f0ce5d; }
+  to { background: #e6e6e6; }
+}
+.block1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-height: 750px;
+  color: #D9D9D9;
+}
+.Rectangle1{
+  width: 810px;
+}
+.text1{
+text-align: center;
+min-height: 60px;
+margin-top: 250px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 900px;
+font-size: 48px;
+color: #000000;
+}
+
+.text2{
+display: flex;
+padding-left: 5%;
+padding-right: 5%;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 34px;
+text-align: center;
+margin-top: 20px;
+color: #000000;
+
+}
+.right-image1{
+
+display:absolute;
+justify-content: center;
+margin-top: 280px;
+margin-right: 140px;
+justify-content: space-between;
+flex-direction: row;
+}
+
+
+.button-1{
+text-decoration: none;
+text-align: center;
+cursor: pointer;
+justify-content: center ;
+width: 354px;
+height: 68px;
+margin: auto;
+font-family: 'Montserrat';
+font-size: 26px;
+font-weight: 600;
+background: linear-gradient(to bottom right, #FFC815 50% , #ffb700 );
+border-radius: 30px;
+margin-top: 40px;
+margin-left: 28%;
+}
+
+.register{
+text-align: center;
+margin-left:10px ;
+}
+.button-1:hover{
+  background: rgb(255, 255, 255);
+}
+
+
+.textblock{
+display: flex;
+flex-direction: column;
+flex-wrap: nowrap;
+margin-left: -100%;
+margin-top: 20px;
+text-align: center;
+justify-self: start;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: stretch;
+}
+
+.left-box {
+  flex: 1.8;
+  margin:-2px
+}
+.aim{
+  font-size: 22px;
+}
+.right-box {
+  flex: 1;
+  padding: 40px;
+  color: #ffffff;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+}
+.text-3{
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 59px;
+text-align: center;
+color: #ffffff;
+}
+.text-4{
+content: normal;
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 34px;
+text-align: center;
+margin-top: 15px;
+color: #f8f2f2;
+
+}
+.image2{
+  display: flexbox;
+  justify-items: flex-end;
+  flex-direction: column;
+  box-shadow: #000000;
+  margin-left: 28%;
+  border-radius: 30px;
+}
+
+/* Cool infinite background scrolling animation.
+ * Twitter: @kootoopas
+ */
+/* Exo thin font from Google. */
+@import url(https://fonts.googleapis.com/css?family=Exo:100);
+/* Background data (Original source: https://subtlepatterns.com/grid-me/) */
+/* Animations */
+@-webkit-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-moz-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-o-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-webkit-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@-moz-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@-o-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+/* Main styles */
+.block3 {
+  padding: 80px;
+  justify-content: center;
+  text-align: center;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAIAAACRXR/mAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAAABnSURBVHja7M5RDYAwDEXRDgmvEocnlrQS2SwUFST9uEfBGWs9c97nbGtDcquqiKhOImLs/UpuzVzWEi1atGjRokWLFi1atGjRokWLFi1atGjRokWLFi1af7Ukz8xWp8z8AAAA//8DAJ4LoEAAlL1nAAAAAElFTkSuQmCC") repeat 0 0;
+  -webkit-animation: bg-scrolling-reverse 2s infinite;
+  -moz-animation: bg-scrolling-reverse 2s infinite;
+  -o-animation: bg-scrolling-reverse 2s infinite;
+  animation: bg-scrolling-reverse 2s infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
+}
+
+
+.reviewrow {
+  height: 60px;
+  background-color: #e6e6e6;
+  border-radius: 70px;
+  margin: 10px;
+  padding: 10px;
+  font-family: Montserrat;
+  display: flex;
+  align-items: center; 
+}
+.eclipse{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #D9D9D9;
+  margin-right: 20px;
+}
+
+.reviewcontainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  width: 1200px;
+}
