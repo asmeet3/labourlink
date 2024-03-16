@@ -1,4 +1,4 @@
-  <img src="https://github.com/asmeet3/labourlink/blob/main/public/assets/ll-header.png" height:100px>
+  <img src="https://github.com/asmeet3/labourlink/blob/main/public/assets/ll-header.png" height:80px>
 
 📌 LabourLink is a website designed to tackle the challenges linked with sourcing dependable laborers for critical tasks such as plumbing, electrical work, gardening, and housekeeping.
 
