@@ -1,0 +1,69 @@
+.login-page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left-side {
+    flex: 1;
+    padding: 10px 0px 50px 110px;
+  }
+  
+  .right-side {
+    flex: 1;
+    padding: 120px 120px 120px 100px;
+  }
+  
+@-webkit-keyframes bg-scrolling-reverse {
+    100% {
+      background-position: 50px 50px;
+    }
+  }
+  @-moz-keyframes bg-scrolling-reverse {
+    100% {
+      background-position: 50px 50px;
+    }
+  }
+  @-o-keyframes bg-scrolling-reverse {
+    100% {
+      background-position: 50px 50px;
+    }
+  }
+  @keyframes bg-scrolling-reverse {
+    100% {
+      background-position: 50px 50px;
+    }
+  }
+  @-webkit-keyframes bg-scrolling {
+    0% {
+      background-position: 50px 50px;
+    }
+  }
+  @-moz-keyframes bg-scrolling {
+    0% {
+      background-position: 50px 50px;
+    }
+  }
+  @-o-keyframes bg-scrolling {
+    0% {
+      background-position: 50px 50px;
+    }
+  }
+  @keyframes bg-scrolling {
+    0% {
+      background-position: 50px 50px;
+    }
+  }
+  .loginbackground {
+    justify-content: center;
+    text-align: center;
+    background: url("../assets/loginpagetexture.png") repeat 0 0;
+    -webkit-animation: bg-scrolling-reverse 2s infinite;
+    -moz-animation: bg-scrolling-reverse 2s infinite;
+    -o-animation: bg-scrolling-reverse 2s infinite;
+    animation: bg-scrolling-reverse 2s infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+  }

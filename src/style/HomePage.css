@@ -14,12 +14,62 @@
   from { background: #f0ce5d; }
   to { background: #e6e6e6; }
 }
-.block1{
+@-webkit-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-moz-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-o-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-webkit-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@-moz-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@-o-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+.block1 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   min-height: 750px;
   color: #D9D9D9;
+  text-align: center;
+  background: url("../assets/loginpagetexture.png") repeat 0 0;
+  -webkit-animation: bg-scrolling-reverse 2s infinite;
+  -moz-animation: bg-scrolling-reverse 2s infinite;
+  -o-animation: bg-scrolling-reverse 2s infinite;
+  animation: bg-scrolling-reverse 2s infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-timing-function: linear;
+  -o-animation-timing-function: linear;
+  animation-timing-function: linear;
 }
 .Rectangle1{
   width: 810px;
@@ -73,8 +123,8 @@ font-size: 26px;
 font-weight: 600;
 background: linear-gradient(to bottom right, #FFC815 50% , #ffb700 );
 border-radius: 30px;
+border: #000000;
 margin-top: 40px;
-margin-left: 28%;
 }
 
 .register{
@@ -188,7 +238,6 @@ color: #f8f2f2;
     background-position: 50px 50px;
   }
 }
-/* Main styles */
 .block3 {
   padding: 80px;
   justify-content: center;
