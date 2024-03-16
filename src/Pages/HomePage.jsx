@@ -57,7 +57,7 @@ export default function HomePage() {
         <img className="eclipse" src="./assets/pic1.jpg"></img>
       </div>
       <div class="right-column">
-        <div class="row">
+        <div class="namerow">
         <b>User 1: ⭐⭐⭐⭐⭐</b>
         </div>
         <div class="row">
@@ -70,7 +70,7 @@ export default function HomePage() {
         <img className="eclipse" src="./assets/pic2.jpg"></img>
       </div>
       <div class="right-column">
-        <div class="row">
+        <div class="namerow">
         <b>User 2: ⭐⭐⭐⭐⭐</b>
         </div>
         <div class="row">
@@ -83,7 +83,7 @@ export default function HomePage() {
         <img className="eclipse" src="./assets/pic3.jpg"></img>
       </div>
       <div class="right-column">
-        <div class="row">
+        <div class="namerow">
         <b>User 3: ⭐⭐⭐⭐⭐</b>
         </div>
         <div class="row">
@@ -96,7 +96,7 @@ export default function HomePage() {
         <img className="eclipse" src="./assets/pic4.jpg"></img>
       </div>
       <div class="right-column">
-        <div class="row">
+        <div class="namerow">
         <b>User 4: ⭐⭐⭐⭐⭐</b>
         </div>
         <div class="row">
@@ -109,7 +109,7 @@ export default function HomePage() {
         <img className="eclipse" src="./assets/pic5.jpg"></img>
       </div>
       <div class="right-column">
-        <div class="row">
+        <div class="namerow">
           <b>User 5: ⭐⭐⭐⭐⭐</b>
         </div>
         <div class="row">
