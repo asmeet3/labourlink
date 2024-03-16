@@ -210,7 +210,9 @@ color: #f8f2f2;
   animation-timing-function: linear;
 }
 
-
+.namerow{
+  align-content: left;
+}
 .reviewrow {
   height: 60px;
   background-color: #e6e6e6;
