@@ -4,6 +4,8 @@ import '../style/FooterStyle.css'
 export default function Footer () {
 return (
 	<>
+    <hr color="#f8be00"></hr>
+    <hr color="#f8be00"></hr>
     <div className="footer" >
         <div className="chatbot">
             <div className="botheader"><img src="./assets/bot.png" height='35px' width='35px'></img><h4>LinkBot/Help</h4></div>

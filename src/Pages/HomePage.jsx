@@ -16,7 +16,7 @@ export default function HomePage() {
           <h2 className="text1">
             <Write />
           </h2>
-          <p className="text2">
+          <p className="text2" style={{ color: "white"}}>
             "Building a bridge between job seekers and employers in the labour
             market."
           </p>
@@ -30,6 +30,8 @@ export default function HomePage() {
           <Karousel />
         </div>
       </div>
+      <hr color="#ffffff"></hr>
+      <hr color="#ffffff"></hr>
       <div class="flex-container">
         <div class="left-box">
           <video
@@ -48,7 +50,8 @@ export default function HomePage() {
             fulfill their respective needs.</p>
         </div>
       </div>
-      
+      <hr color="#ffffff"></hr>
+      <hr color="#ffffff"></hr>
       <div className="block3">
   <h1 align="center">REVIEWS</h1>
   <div class="reviewcontainer">
