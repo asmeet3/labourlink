@@ -4,7 +4,7 @@ import Typewriter from "typewriter-effect";
 
 function Write() {
     return (
-        <div className="App">
+        <div className="App" style={{ color: "white"}}>
             <Typewriter
                 
                 onInit={(typewriter) => {
