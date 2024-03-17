@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import "../style/SearchPage.css";
-import { Link } from "@mui/material";
 import Footer from "./Footer";
 import Labour from "../components/Labour";
 import { useFirebase } from "../context/Firebase";
@@ -33,9 +32,9 @@ export default function SearchPage() {
     const a =
       Math.sin(dLat / 2) * Math.sin(dLat / 2) +
       Math.cos(lat1 * (Math.PI / 180)) *
-        Math.cos(lat2 * (Math.PI / 180)) *
-        Math.sin(dLon / 2) *
-        Math.sin(dLon / 2);
+      Math.cos(lat2 * (Math.PI / 180)) *
+      Math.sin(dLon / 2) *
+      Math.sin(dLon / 2);
     const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
     const distance = R * c;
     return distance;
@@ -71,39 +70,26 @@ export default function SearchPage() {
       <Navbar />
 
       <div className="bg">
-        <br></br>
-        <br></br>
-        <br></br>
-        <div className="Search">
-          <p className="text11">Search Results</p>
-          <div className="dropdown">
-            <div className="dropbtn">
-              Sort by
-              <img
-                className="image"
-                height="20px"
-                src=".\assets\down.png"
-              ></img>{" "}
-            </div>
-            <div className="dropdown-content">
-              <div
-                onClick={() => {
-                  wagesSort("asce");
-                }}
-              >
-                Price: Low to High
+        <div class="searchpage-flex-container">
+          <div class="searchrow">
+            <p className="text11">Search Results</p>
+          </div>
+          <div class="searchrow">
+            <div className="Search">
+
+              <div className="dropdown">
+                <div className="dropbtn">Sort by ▽</div>
+                <div className="dropdown-content">
+                  <div onClick={() => { wagesSort("asce"); }}>Price: Low to High</div>
+                  <div onClick={() => { wagesSort("desc"); }}>Price: High to Low</div>
+                  <div onClick={locationSort}>Nearest</div>
+                </div>
               </div>
-              <div
-                onClick={() => {
-                  wagesSort("desc");
-                }}
-              >
-                Price: High to Low
-              </div>
-              <div onClick={locationSort}>Nearest</div>
             </div>
           </div>
         </div>
+
+
         {!labours.length && (
           <div className="loader-container">
             <span className="loader2"></span>
