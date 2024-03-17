@@ -145,32 +145,36 @@ const Labour = (data) => {
 
   return (
     <div className="rectangle1">
-      <div className="eclipse-1">
-        <img
-          className="eclipse-2"
-          src={data.data.imageUrl ?? "./assets/person-circle.svg"}
-        ></img>
-      </div>
-      <div className="star">
-        <img height="30px" width="30px" src="./assets/star.png"></img>
-        <img height="30px" width="30px" src="./assets/star.png"></img>
-        <img height="30px" width="30px" src="./assets/star.png"></img>
-      </div>
-      <div className="text22">
-        <p style={{ display: "flex", gap: "1rem" }}>
-          <span>Name</span>:<span>{data.data.name}</span>
-        </p>
-        <p style={{ display: "flex", gap: "1rem" }}>
-          <span>Designation</span>:<span>{data.data.designation}</span>
-        </p>
-        <p style={{ display: "flex", gap: "1rem" }}>
-          <span>Wages</span>:<span>₹ {data.data.charge}</span>
-        </p>
 
-        <button onClick={paymentHandle} className="rectangle2">
-          Queue
-        </button>
+      <div class="labourcard">
+        <div class="labourphoto">
+          <div className="eclipse-1">
+            <img src={data.data.imageUrl ?? "./assets/person-circle.svg"}></img>
+          </div>
+        </div>
+        <div class="labourcardtext">
+          <div className="labourdetails">
+            <p style={{ display: "flex", gap: "1rem", fontFamily: "Montserrat" }}>
+              Name: {data.data.name}
+            </p>
+            <p style={{ display: "flex", gap: "1rem", fontFamily: "Montserrat" }}>
+              Designation: {data.data.designation}
+            </p>
+            <p style={{ display: "flex", gap: "1rem", fontFamily: "Montserrat" }}>
+              Wages: ₹ {data.data.charge}
+            </p>
+
+            <button onClick={paymentHandle} className="rectangle2">
+              Queue
+            </button>
+          </div>
+        </div>
       </div>
+
+
+
+
+
     </div>
   );
 };
