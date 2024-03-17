@@ -9,6 +9,7 @@ import Write from "../components/Typewrite";
 export default function HomePage() {
   return (
     <>
+    
       <Navbar />
 
       <div className="block1">
@@ -16,7 +17,7 @@ export default function HomePage() {
           <h2 className="text1">
             <Write />
           </h2>
-          <p className="text2" style={{ color: "white"}}>
+          <p className="text2" style={{ color: "white" }}>
             "Building a bridge between job seekers and employers in the labour
             market."
           </p>
@@ -53,78 +54,78 @@ export default function HomePage() {
       <hr color="#ffffff"></hr>
       <hr color="#ffffff"></hr>
       <div className="block3">
-  <h1 align="center">REVIEWS</h1>
-  <div class="reviewcontainer">
-    <div class="reviewrow">
-      <div class="left-column">
-        <img className="eclipse" src="./assets/pic1.jpg"></img>
-      </div>
-      <div class="right-column">
-        <div class="row" style={{ textAlign: 'left' }}>
-        <b>User 1: ⭐⭐⭐⭐⭐</b>
+        <h1 align="center" style={{ fontFamily: 'Montserrat' }}>REVIEWS</h1>
+
+        <div class="reviewcontainer">
+          <div class="reviewrow">
+            <div class="left-column">
+              <img className="eclipse" src="./assets/pic1.jpg"></img>
+            </div>
+            <div class="right-column">
+              <div class="row" style={{ textAlign: 'left' }}>
+                <b>User 1: ⭐⭐⭐⭐⭐</b>
+              </div>
+              <div class="row">
+                Fantastic platform! Found reliable workers swiftly for my home renovation project. Highly recommend for anyone seeking skilled labor!
+              </div>
+            </div>
+          </div>
+          <div class="reviewrow">
+            <div class="left-column">
+              <img className="eclipse" src="./assets/pic2.jpg"></img>
+            </div>
+            <div class="right-column">
+              <div class="row">
+                <b>User 2: ⭐⭐⭐⭐⭐</b>
+              </div>
+              <div class="row">
+                Efficient and user-friendly interface. Connected with experienced laborers in no time. Great service!
+              </div>
+            </div>
+          </div>
+          <div class="reviewrow">
+            <div class="left-column">
+              <img className="eclipse" src="./assets/pic3.jpg"></img>
+            </div>
+            <div class="right-column">
+              <div class="row">
+                <b>User 3: ⭐⭐⭐⭐⭐</b>
+              </div>
+              <div class="row">
+                Impressed with the quality of workers I found through this site. Prompt responses and great communication. Will definitely use again!
+              </div>
+            </div>
+          </div>
+          <div class="reviewrow">
+            <div class="left-column">
+              <img className="eclipse" src="./assets/pic4.jpg"></img>
+            </div>
+            <div class="right-column">
+              <div class="row">
+                <b>User 4: ⭐⭐⭐⭐⭐</b>
+              </div>
+              <div class="row">
+                A lifesaver for my business! Found dependable laborers for short-term projects hassle-free. Definitely my go-to for staffing needs.
+              </div>
+            </div>
+          </div>
+          <div class="reviewrow">
+            <div class="left-column">
+              <img className="eclipse" src="./assets/pic5.jpg"></img>
+            </div>
+            <div class="right-column">
+              <div class="row">
+                <b>User 5: ⭐⭐⭐⭐⭐</b>
+              </div>
+              <div class="row">
+                Incredible resource for finding temporary labor. Streamlined process and a wide pool of skilled workers to choose from. Couldn't be happier!
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="row">
-          Fantastic platform! Found reliable workers swiftly for my home renovation project. Highly recommend for anyone seeking skilled labor!
-        </div>
       </div>
-    </div>
-    <div class="reviewrow">
-      <div class="left-column">
-        <img className="eclipse" src="./assets/pic2.jpg"></img>
-      </div>
-      <div class="right-column">
-        <div class="row">
-        <b>User 2: ⭐⭐⭐⭐⭐</b>
-        </div>
-        <div class="row">
-          Efficient and user-friendly interface. Connected with experienced laborers in no time. Great service!
-        </div>
-      </div>
-    </div>
-    <div class="reviewrow">
-      <div class="left-column">
-        <img className="eclipse" src="./assets/pic3.jpg"></img>
-      </div>
-      <div class="right-column">
-        <div class="row">
-        <b>User 3: ⭐⭐⭐⭐⭐</b>
-        </div>
-        <div class="row">
-          Impressed with the quality of workers I found through this site. Prompt responses and great communication. Will definitely use again!
-        </div>
-      </div>
-    </div>
-    <div class="reviewrow">
-      <div class="left-column">
-        <img className="eclipse" src="./assets/pic4.jpg"></img>
-      </div>
-      <div class="right-column">
-        <div class="row">
-        <b>User 4: ⭐⭐⭐⭐⭐</b>
-        </div>
-        <div class="row">
-          A lifesaver for my business! Found dependable laborers for short-term projects hassle-free. Definitely my go-to for staffing needs.
-        </div>
-      </div>
-    </div>
-    <div class="reviewrow">
-      <div class="left-column">
-        <img className="eclipse" src="./assets/pic5.jpg"></img>
-      </div>
-      <div class="right-column">
-        <div class="row">
-          <b>User 5: ⭐⭐⭐⭐⭐</b>
-        </div>
-        <div class="row">
-          Incredible resource for finding temporary labor. Streamlined process and a wide pool of skilled workers to choose from. Couldn't be happier!
-        </div>
-      </div>
-    </div>
-  </div> 
-</div>
-      
-      
-      <Footer />
+
+
     </>
   );
 }
