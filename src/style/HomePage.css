@@ -54,6 +54,7 @@
     background-position: 50px 50px;
   }
 }
+
 .block1 {
   display: flex;
   flex-direction: row;
@@ -71,9 +72,8 @@
   -o-animation-timing-function: linear;
   animation-timing-function: linear;
 }
-.Rectangle1{
-  width: 810px;
-}
+
+
 .text1{
 text-align: center;
 min-height: 60px;
@@ -158,6 +158,8 @@ justify-self: start;
 }
 .aim{
   font-size: 22px;
+  font-family: 'Montserrat';
+
 }
 .right-box {
   flex: 1;
@@ -168,7 +170,7 @@ justify-self: start;
   align-items: center;
 }
 .text-3{
-font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat';
 font-style: normal;
 font-weight: 700;
 font-size: 48px;
@@ -178,7 +180,7 @@ color: #ffffff;
 }
 .text-4{
 content: normal;
-font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
 font-size: 28px;
@@ -278,6 +280,208 @@ color: #f8f2f2;
   margin-top: 20px;
   display: flex;
   flex-direction: column;
-  margin-left: 60px;
-  width: 1200px;
+  width: 100%;
+}
+
+
+
+
+@media only screen and (max-width:600px)
+{
+  .text1{
+    font-weight: 600px;
+    font-size: 34px;
+    margin-top:200px;
+    }
+    
+    .text2{
+    font-weight: 400;
+    font-size: 15px;
+    margin-top:10px;
+    line-height: 28px;
+
+    }
+  .left-box {
+    flex: 0;
+  }
+  .aim{
+    font-size: 14px;
+  }
+  .right-image1{
+
+    display:none;
+    }
+    .block1 {
+      min-height: 650px;
+      display: flex;
+      flex-direction: row;
+      padding-top: 0px;
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    
+    .reviewrow{
+      font-size: 10px;
+      height: 50px;
+      padding: 5px;
+      margin: 5px;
+      align-items:start; 
+    }
+    .reviewrow {
+      display: flex;
+      border: 1px solid #ccc;
+      margin-bottom: 10px;
+      overflow-y: auto; /* Enable vertical scrolling */
+    }
+    
+    .reviewrow .left-column {
+      flex: 0 0 auto;
+    }
+    
+    .reviewrow .right-column {
+      flex: 1;
+      padding: 0px 10px 10px 10px;
+      overflow-y: auto; /* Enable vertical scrolling */
+      padding-right: 20px; /* Add some padding to make space for the scrollbar */
+    }
+    
+    .reviewrow img.eclipse {
+      max-width: 100%;
+      height: auto;
+    }
+    
+    .reviewrow .row {
+      margin-bottom: 5px;
+      word-wrap: break-word; /* Break long words to prevent overflow */
+    }
+    
+    .eclipse{
+      width: 50px;
+      height: 50px;
+    }
+    .block1
+    {
+      padding-left: 20px;
+      min-height: 550px;
+    }
+    .button-1{
+      width: 250px;
+      height: 50px;
+      font-size: 18px;
+      margin-top: 30px;
+    }
+    .Rectangle1{
+      width: 700px;
+    }
+}
+@media only screen and (min-width:601px) and (max-width:900px)
+{
+  .text1{
+    font-weight: 600px;
+    font-size: 34px;
+    margin-top:200px;
+    }
+    
+    .text2{
+    font-weight: 400;
+    font-size: 15px;
+    margin-top:10px;
+    line-height: 28px;
+
+    }
+  .left-box {
+    flex: 0;
+  }
+  .aim{
+    font-size: 16px;
+  }
+  .right-image1{
+
+    display:absolute;
+    justify-content: center;
+    margin-top: 100px;
+    margin-right: 40px;
+    }
+    .block1 {
+      min-height: 650px;
+      display: flex;
+      flex-direction: row;
+      padding-top: 0px;
+    }
+    
+    .reviewrow{
+      font-size: 12px;
+      height: 50px;
+    }
+    .eclipse{
+      width: 50px;
+      height: 50px;
+    }
+    .block1
+    {
+      padding-left: 20px;
+      min-height: 550px;
+    }
+    .button-1{
+      width: 250px;
+      height: 50px;
+      font-size: 18px;
+      margin-top: 30px;
+    }
+    .Rectangle1{
+      width: 700px;
+    }
+}
+@media only screen and (min-width:901px) and (max-width:1199px)
+{
+  .reviewcontainer
+  {
+    max-width: 100%;
+
+  }
+  .text1{
+    font-weight: 700px;
+    font-size: 38px;
+    }
+    
+    .text2{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    }
+  .left-box {
+    flex: 0;
+  }
+  .aim{
+    font-size: 18px;
+  }
+  .right-image1{
+
+    display:absolute;
+    justify-content: center;
+    margin-top: 200px;
+    margin-right: 70px;
+    }
+    .block1 {
+      min-height: 650px;
+      max-width: 100%;
+    }
+    
+    .reviewrow{
+      font-size: 14px;
+      height: 50px;
+    }
+    .eclipse{
+      width: 50px;
+      height: 50px;
+    }
+    .block1
+    {
+      padding-left: 20px;
+    }
+    .button-1{
+      width: 300px;
+      height: 60px;
+      font-size: 22px;
+    }
 }
