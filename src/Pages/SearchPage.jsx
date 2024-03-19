@@ -4,8 +4,7 @@ import "../style/SearchPage.css";
 import Footer from "./Footer";
 import Labour from "../components/Labour";
 import { useFirebase } from "../context/Firebase";
-import { useState } from "react";
-import { useEffect } from "react";
+import { useState, useEffect } from "react";
 
 export default function SearchPage() {
   const { labours, setLabours } = useFirebase();
@@ -103,7 +102,6 @@ export default function SearchPage() {
           </div>
         )}
       </div>
-      <Footer />
     </>
   );
 }

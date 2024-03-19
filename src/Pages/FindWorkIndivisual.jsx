@@ -554,7 +554,6 @@ export default function Indivisual() {
         </form>
       </div>
       <div className="bottom"></div>
-      <Footer />
     </>
   );
 }
