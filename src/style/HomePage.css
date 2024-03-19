@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
 
 
+
 @keyframes fade {
   from { background: #f0ce5d; }
   to { background: #e6e6e6; }
@@ -381,9 +382,6 @@ color: #f8f2f2;
     line-height: 28px;
 
     }
-  .left-box {
-    flex: 0;
-  }
   .aim{
     font-size: 16px;
   }
@@ -424,6 +422,7 @@ color: #f8f2f2;
       width: 700px;
     }
 }
+
 @media only screen and (min-width:901px) and (max-width:1199px)
 {
   .reviewcontainer
@@ -441,9 +440,6 @@ color: #f8f2f2;
     font-size: 18px;
     line-height: 32px;
     }
-  .left-box {
-    flex: 0;
-  }
   .aim{
     font-size: 18px;
   }
@@ -476,4 +472,24 @@ color: #f8f2f2;
       height: 60px;
       font-size: 22px;
     }
+}
+
+@media only screen and (min-width:1200px) and (max-width:1300px)
+{
+  .left-box {
+    flex: 0.9;
+  }
+}
+
+@media only screen and (min-width:1101px) and (max-width:1299px)
+{
+  .left-box {
+    flex: 0.8;
+  }
+}
+@media only screen and (min-width:601px) and (max-width:1100px)
+{
+  .left-box {
+    flex: 0;
+  }
 }
