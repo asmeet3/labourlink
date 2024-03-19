@@ -1,14 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
 
-.block1 {
-  margin: 0;
-}
-.block1 {
-  background: #e6e6e6;
-  height: 10vh;
-  width: 100%;
-}
 
 @keyframes fade {
   from { background: #f0ce5d; }
