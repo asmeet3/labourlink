@@ -199,13 +199,15 @@ h3 {
 @media only screen and (max-width:600px) {
   .back{
     margin-top: 55px;
+    height: 92rem;
   }
   .column33 {
     display: none;    
     }
     .column22 {
       
-      left: 19rem;
+      left: 2rem;
+      margin-top: 33rem;
      
     }
     .pageheading
@@ -216,13 +218,14 @@ h3 {
     }
     .column11 {
       
-      left: 0rem;
+      left: 2rem;
       
     }
   .columns{
     margin-top: 3rem;
   width: 45rem;
   margin-left: 0rem;
+  height: 81rem;
   }
 }
 
