@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap');
+h2 {
+  font-family: "Montserrat";
+}
+.copyrightll {
+  font-family: "Montserrat";
+  font-size: 13px;
+}
 .login-page-container {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  
+
   .left-side {
     flex: 1;
     padding: 10px 0px 50px 110px;
@@ -66,4 +74,27 @@
     -moz-animation-timing-function: linear;
     -o-animation-timing-function: linear;
     animation-timing-function: linear;
+  }
+
+ 
+  @media only screen and (max-width:800px) {
+    .login-page-container {
+      display: flex;
+      flex-direction: column;
+      min-width: 300px;
+    }
+    .left-side{
+      max-width: 50%;
+      padding: 0;
+    }
+    .right-side{
+      padding: 80px 0 0 0;
+      
+    }
+    .loginbackground {
+      min-height: 650px;
+    }
+  }
+  @media only screen and (min-width:1101px) and (max-width:1400px) {
+   
   }
