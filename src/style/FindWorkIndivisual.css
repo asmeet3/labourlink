@@ -195,8 +195,42 @@ h3 {
 }
 
 
+@media only screen and (max-width:400px) {
+  .back{
+    margin-top: 55px;
+    height: 92rem;
+  }
+  .column33 {
+    display: none;    
+    }
+    .column22 {
+      
+      left: 0rem;
+      margin-top: 33rem;
+     
+    }
+    .pageheading
+    {
+      font-size: 1.2rem;
 
-@media only screen and (max-width:600px) {
+      margin-left: -5rem;
+      width: 21rem;
+    height: 3.5rem;
+    }
+    .column11 {
+      
+      left: 0rem;
+      
+    }
+  .columns{
+    margin-top: 1rem;
+  width: 45rem;
+  margin-left: -1rem;
+  height: 81rem;
+  }
+}
+
+@media only screen and (min-width:401px) and (max-width:600px) {
   .back{
     margin-top: 55px;
     height: 92rem;
